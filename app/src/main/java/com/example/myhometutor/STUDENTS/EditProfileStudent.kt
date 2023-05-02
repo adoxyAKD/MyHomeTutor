@@ -11,6 +11,6 @@ class EditProfileStudent : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_profile_student)
 
-        Toast.makeText(this, "test toast", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "test toast", Toast.LENGTH_SHORT).show();
     }
 }
