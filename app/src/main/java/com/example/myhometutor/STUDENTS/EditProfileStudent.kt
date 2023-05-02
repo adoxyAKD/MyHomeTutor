@@ -10,6 +10,6 @@ class EditProfileStudent : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_profile_student)
 
-        showToast("Test Toast")
+        Toast.makeToast(this, "", Toast.LENGTH_SHORT).show()
     }
 }
